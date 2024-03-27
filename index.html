@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js">
+      
+    </script>
+    <title>Prasad</title>
+    <script src="https://kit.fontawesome.com/dc24e02dcc.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo">
+        <ul class="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#Aboutus">Aboutus</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#Contactus">Contactus</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hey! I am<span> <br>Prasad </span>Gurung</h1>
+      </div>
+    </div>
+  </div>
+
+
+<!----about----->
+
+  <div id="Aboutus">
+    <div class="container">
+      
+      <div class="row">
+        <div class="Aboutus-col-1">
+          <img src="images/cr7.jpeg">
+        </div>
+        <div class="Aboutus-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>I am a hard-working and driven individual who isn't afraid to face a challenge. I'm passionate about my work and I know how to get the job done. I would describe myself as an open and honest person who doesn't believe in misleading other people and tries to be fair in everything I do.</p>
+       <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+       </div>
+       <div class="tab-contents active-tab" id="skills">
+        <ul>  
+          <li><span>UI/UX</span><br> Designing WEB/App interfaces</li>
+          <li><span>WEB developmment</span><br> Designing websites</li>
+          <li><span>APP development</span><br> building apps</li>
+        
+        </ul>
+        
+       </div>
+       <div class="tab-contents" id="education">
+        <ul>  
+          <li><span>2022-Current</span><br>Studying in TCMIT</li>
+          <li><span>2020-2022</span><br> learned basic c program languages</li>
+          <li><span>2024</span><br> BIT 3rd semester from TCMIT</li>
+        </ul>
+        
+       </div>
+       <div class="tab-contents" id="experiences">
+        <ul>  
+          <li><span>2020</span><br> Passed 10 class</li>
+          <li><span>2022</span><br> Passed +2 in CS</li>
+          <li><span>2024</span><br> BIT 3rd semester in TCMIT</li>
+        </ul>
+        
+       </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+    
+
+<!----services------>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2> Web Design</h2>
+          <p>A web designer is responsible for creating the design and layout of a website or web pages.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2> UI/UX Design</h2>
+          <p>Gathering and evaluating user requirements, in collaboration with product managers and engineers. Illustrating design ideas using storyboards, process flows and sitemaps. Designing graphic user interface elements, like menus, tabs and widgets.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2> APP Design</h2>
+          <p>App designers create programs for smartphones, tablets and computers. They work in a range of industries and across a number of platforms, including Apple iOS and macOS, Google Android, and Windows.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+<!--------portfolio-->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Folio</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.jpeg">
+        <div class="layer">
+          <h3>Website Design</h3>
+          <p>through the website you can see and learn the code. thank you.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/Trending New UI Design.jpeg">
+        <div class="layer">
+          <h3>UI/UX Design</h3>
+          <p>through the website you can see and learn the code. thank you.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/Project Management Mobile Application UI Design.jpeg">
+        <div class="layer">
+          <h3>App Design</h3>
+          <p>through the website you can see and learn the code. thank you.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+ <a href="http://127.0.0.1:5500/portfolio.html" class="btn"> See More</a>
+  </div>
+</div>
+<!-------Contact----->
+<div id="Contactus">
+  <div class="container">
+<div class="row">
+
+  <div class="contact-Left">
+    <h1 class="sub-title"> Contact me</h1>
+    <p><i class="fa-solid fa-paper-plane"></i><a class="mail" href="mailto:prasadgurung506@gmail.com">prasadgurung506@gmail.com</a></p>
+
+      <p><i class="fa-solid fa-square-phone-flip"></i> <a class="call" href="tel:9808502118">9808502118</a></p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/vo.tey.79025648"><i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i> </a>
+        <a href="https://www.instagram.com/sol___prasad/>"> <i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i> </a>
+      </div>
+      <a href="images/Prasad-Gurung-cv.pdf" download class="btn btn2"> Download CV</a>
+  </div>
+  <div class="contact-Right">
+    <form>
+      <input type="text" name="Name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Enter Email" required>
+      <textarea name="Message" rows="6" placeholder="Enter Message" ></textarea> 
+      <button type="submit" class="btn btn2">Submit</button>
+      
+
+    </form>
+    <span id="msg">Your message has been sent successfully.</span>
+  </div>
+</div>    
+
+  </div>
+  <div class="copyright">
+    <p>© 2024 All rights reserved | Prasad Gurung. <i class="fa-solid fa-heart"></i>  </p>
+  </div>
+</div>
+
+
+<!------Resume----->
+<!----js-->
+
+  </body>
+</html>
